@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <title>Coffe website</title>
+  </head>
+  <body>
+    <header class="header container">
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <i class="ph-magnifying-glass" id="search-btn"></i>
+        <i class="ph-shopping-cart" id="cart-btn"></i>
+        <i class="ph-list" id="menu-btn"></i>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <div class="search-label">
+          <label
+            for="search-box"
+            class="ph-magnifying-glass"
+            id="search-btn"
+          ></label>
+        </div>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span class="ph-x"></span>
+          <img src="img/cart-item-1.png" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="ph-x"></span>
+          <img src="img/cart-item-2.png" alt="" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="ph-x"></span>
+          <img src="img/cart-item-3.png" alt="" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="ph-x"></span>
+          <img src="img/cart-item-4.png" alt="" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>fresh coffee in the morning</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+          excepturi asperiores molestias eum saepe error?
+        </p>
+        <a href="" class="btn">get yours now</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>ABOUT</span> US</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="img/about-img.jpeg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>What Makes Our Coffee Special?</h3>
+          <p>
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+            Voluptatibus Qui Ea Ullam, Enim Tempora Ipsum Fuga Alias Quae
+            Ratione A Officiis Id Temporibus Autem? Quod Nemo Facilis
+            Cupiditate. Ex, Vel?
+          </p>
+          <p>
+            Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Odit Amet
+            Enim Quod Veritatis, Nihil Voluptas Culpa! Neque Consectetur
+            Obcaecati Sapiente?
+          </p>
+          <a href="" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="heading">our <span>menu</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="img/menu-1.png" alt="" />
+          <h3>tasty and healty</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="img/menu-2.png" alt="" />
+          <h3>tasty and healty</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="img/menu-3.png" alt="" />
+          <h3>tasty and healty</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="img/menu-4.png" alt="" />
+          <h3>tasty and healty</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="img/menu-5.png" alt="" />
+          <h3>tasty and healty</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="img/menu-6.png" alt="" />
+          <h3>tasty and healty</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="" class="ph-shopping-cart"></a>
+            <a href="" class="ph-heart-straight"></a>
+            <a href="" class="ph-eye"></a>
+          </div>
+          <div class="image">
+            <img src="img/product-1.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>fresh coffee</h3>
+            <div class="stars">
+              <i class="ph-star-fill"></i>
+              <i class="ph-star-fill"></i>
+              <i class="ph-star-fill"></i>
+              <i class="ph-star-fill"></i>
+              <i class="ph-star-half-fill"></i>
+            </div>
+            <div class="price">$15.99 <span>$20.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="" class="ph-shopping-cart"></a>
+            <a href="" class="ph-heart-straight"></a>
+            <a href="" class="ph-eye"></a>
+          </div>
+          <div class="image">
+            <img src="img/product-2.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>fresh coffee</h3>
+            <div class="stars">
+              <i class="ph-star-fill"></i>
+              <i class="ph-star-fill"></i>
+              <i class="ph-star-fill"></i>
+              <i class="ph-star-fill"></i>
+              <i class="ph-star-half-fill"></i>
+            </div>
+            <div class="price">$15.99 <span>$20.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="" class="ph-shopping-cart"></a>
+            <a href="" class="ph-heart-straight"></a>
+            <a href="" class="ph-eye"></a>
+          </div>
+          <div class="image">
+            <img src="img/product-3.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>fresh coffee</h3>
+            <div class="stars">
+              <i class="ph-star-fill"></i>
+              <i class="ph-star-fill"></i>
+              <i class="ph-star-fill"></i>
+              <i class="ph-star-fill"></i>
+              <i class="ph-star-half-fill"></i>
+            </div>
+            <div class="price">$15.99 <span>$20.99</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="img/quote-img.png" alt="" class="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            dicta nihil, quisquam sed aspernatur dignissimos iure, quod eveniet
+            maiores aut odit eligendi asperiores. Molestias quidem odit aperiam
+            laudantium quae eos.
+          </p>
+          <img src="img/pic-1.png" alt="" class="user" />
+          <h3>john deo</h3>
+          <div class="stars">
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-half-fill"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/quote-img.png" alt="" class="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            dicta nihil, quisquam sed aspernatur dignissimos iure, quod eveniet
+            maiores aut odit eligendi asperiores. Molestias quidem odit aperiam
+            laudantium quae eos.
+          </p>
+          <img src="img/pic-2.png" alt="" class="user" />
+          <h3>john deo</h3>
+          <div class="stars">
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-half-fill"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/quote-img.png" alt="" class="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            dicta nihil, quisquam sed aspernatur dignissimos iure, quod eveniet
+            maiores aut odit eligendi asperiores. Molestias quidem odit aperiam
+            laudantium quae eos.
+          </p>
+          <img src="img/pic-3.png" alt="" class="user" />
+          <h3>john deo</h3>
+          <div class="stars">
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-half-fill"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h3 class="heading"><span>contact</span>us</h3>
+
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207446.248188136!2d139.60078038831176!3d35.66844146514209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b857628235d%3A0xcdd8aef709a2b520!2zVMOzcXVpbywgSmFww6Nv!5e0!3m2!1spt-BR!2sbr!4v1661300823373!5m2!1spt-BR!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <span class="ph-user-fill spanIcon"></span>
+            <input type="text" required="required" />
+            <span class="spanInput">name</span>
+          </div>
+          <div class="inputBox">
+            <span class="ph-envelope-fill spanIcon"></span>
+            <input type="email" required="required" />
+            <span class="spanInput">email</span>
+          </div>
+          <div class="inputBox">
+            <span class="ph-phone-fill spanIcon"></span>
+            <input type="number" required="required" />
+            <span class="spanInput">number</span>
+          </div>
+          <input type="submit" value="contact now" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our <span>blogs</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="img/blog-1.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">tasty and refreshing coffee</a>
+            <span>by admin / 21st may, 2022</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati, minima.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="img/blog-2.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">tasty and refreshing coffee</a>
+            <span>by admin / 21st may, 2022</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati, minima.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="img/blog-3.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">tasty and refreshing coffee</a>
+            <span>by admin / 21st may, 2022</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati, minima.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="ph-facebook-logo-thin"></a>
+        <a href="#" class="ph-twitter-logo-fill"></a>
+        <a href="#" class="ph-instagram-logo-light"></a>
+        <a href="#" class="ph-linkedin-logo-light"></a>
+      </div>
+
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
